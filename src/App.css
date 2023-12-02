@@ -1,0 +1,43 @@
+:root{
+    --yellow: #f5c32f;
+    --orange: #FCA61F;
+    --black:#242d49;
+    --gray:#788097;
+    --blueCard:#DDF8FE;
+    --purple:rgb(238 210 210 0);
+    --boxShadow: 0px 19px 60px rgb(0 0 0/8);
+    --purple:#CBC3E3;
+    --skyblue:#9EECFF;
+    
+}
+.App {
+ padding: 0.5rem 3.5rem;
+ overflow: hidden;
+ color: var(--black)
+}
+.button{
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 9px 5px 9px;
+    background: linear-gradient(180deg, #fdc50f 26.71%,#fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251,161,40,0.42);
+}
+.button:hover{
+    background: white;
+    cursor: pointer;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+}
+.pic{
+    height: 58px;
+    width: 63px;
+
+}
+@media screen and(max-width:480px) {
+    .App{
+        padding: 0.5rem 1rem;
+    }
+}

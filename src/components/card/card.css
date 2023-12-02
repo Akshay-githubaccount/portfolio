@@ -1,0 +1,50 @@
+.card{
+    width: 10rem;
+    height: 12.5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 13rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255,0.26);
+    border: 3px solid var(--orange) ;
+    border-radius: 25px;
+    padding: 0px 26px 2rem 26px;
+}
+.card span:nth-of-type(1){
+    color:var(--black);
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.card span:nth-of-type(2){
+    color:var(--gray);
+    font-size: 17px;
+}
+.card span:nth-of-type(3){
+    color:var(--black);
+    font-size: 16px;
+    font-weight: 480;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.c-button{
+    background: #ffff;
+    box-shadow : 0px 19px 60px rgba(0,0,0,0.08);
+    border-radius:7px;
+    border: none;
+    top: 18px;
+    padding: 9px;
+    font-size: 14px;
+    color: #5290fd;
+}
+@media screen and(max-width:404px) {
+    .card{
+        width: auto;
+    }
+    .c-button{
+        width: auto;
+    }
+}
